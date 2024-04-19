@@ -3,7 +3,7 @@ import React, { Fragment } from "react";
 const Header = () => {
   return (
     <Fragment>
-      <header classNameName="clearfix header-style5">
+      <header className="clearfix header-style5">
         <div className="logo-place">
           <div className="container">
             <div className="inner-logo-place">
