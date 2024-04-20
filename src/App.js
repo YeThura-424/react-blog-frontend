@@ -1,13 +1,14 @@
 import { Fragment } from "react";
-import Home from "./pages/Home";
+// import Home from "./pages/Home";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import route from "./router";
+import router from "./router";
+import { RouterProvider } from "react-router-dom";
 function App() {
   return (
     <Fragment>
       <Header />
-      <Home />
+      <RouterProvider router={router} />
       <Footer />
     </Fragment>
   );

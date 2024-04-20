@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-
+import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <Fragment>
@@ -40,29 +40,10 @@ const Header = () => {
               </form>
               <ul className="navbar-nav m-auto">
                 <li className="drop-link">
-                  <a className="active" href="index.html">
+                  {/* <a className="active" href="index.html">
                     Home <i className="fa fa-angle-down" aria-hidden="true"></i>
-                  </a>
-                  <ul className="dropdown">
-                    <li>
-                      <a href="index.html">Homepage 01</a>
-                    </li>
-                    <li>
-                      <a href="home2.html">Homepage 02</a>
-                    </li>
-                    <li>
-                      <a href="home3.html">Homepage 03</a>
-                    </li>
-                    <li>
-                      <a href="home4.html">Homepage 04</a>
-                    </li>
-                    <li>
-                      <a href="home5.html">Homepage 05</a>
-                    </li>
-                    <li>
-                      <a href="home6.html">Homepage 06</a>
-                    </li>
-                  </ul>
+                  </a> */}
+                  <Link to={"/"}>Home</Link>
                 </li>
                 <li className="drop-link">
                   <a href="#">
