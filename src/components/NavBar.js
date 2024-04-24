@@ -29,7 +29,7 @@ const NavBar = () => {
               <a className="active" href="index.html">
                 Home <i className="fa fa-angle-down" aria-hidden="true"></i>
               </a>
-              {/* <Link to={"/"}>Home</Link> */}
+              {/* <Link to="/">Home</Link> */}
             </li>
             <li className="drop-link">
               <a href="#">
