@@ -26,10 +26,10 @@ const NavBar = () => {
           </form>
           <ul className="navbar-nav m-auto">
             <li className="drop-link">
-              <a className="active" href="index.html">
+              {/* <a className="active" href="index.html">
                 Home <i className="fa fa-angle-down" aria-hidden="true"></i>
-              </a>
-              {/* <Link to="/">Home</Link> */}
+              </a> */}
+              <Link to="/">Home</Link>
             </li>
             <li className="drop-link">
               <a href="#">
@@ -37,52 +37,19 @@ const NavBar = () => {
               </a>
               <ul className="dropdown">
                 <li>
-                  <a href="category-grid.html">
-                    Category Pages <i className="fa fa-angle-right"></i>
-                  </a>
-                  <ul className="dropdown level2">
-                    <li>
-                      <a href="category-list.html">List style</a>
-                    </li>
-                    <li>
-                      <a href="category-grid.html">Grid style</a>
-                    </li>
-                    <li>
-                      <a href="category-mix.html">Mix style</a>
-                    </li>
-                  </ul>
+                  <Link to="/category">
+                    Category <i className="fa fa-angle-right"></i>
+                  </Link>
                 </li>
                 <li>
-                  <a href="single-post.html">
-                    Post Styles <i className="fa fa-angle-right"></i>
-                  </a>
-                  <ul className="dropdown level2">
-                    <li>
-                      <a href="single-post.html">classNameic sidebar</a>
-                    </li>
-                    <li>
-                      <a href="single-post2.html">fullwidth sidebar</a>
-                    </li>
-                    <li>
-                      <a href="single-post3.html">alt no sidebar</a>
-                    </li>
-                  </ul>
+                  <Link to="All Post">
+                    Posts <i className="fa fa-angle-right"></i>
+                  </Link>
                 </li>
                 <li>
                   <a href="about.html">
                     Pages <i className="fa fa-angle-right"></i>
                   </a>
-                  <ul className="dropdown level2">
-                    <li>
-                      <a href="about.html">about us</a>
-                    </li>
-                    <li>
-                      <a href="archives.html">Archive</a>
-                    </li>
-                    <li>
-                      <a href="error-404.html">error 404</a>
-                    </li>
-                  </ul>
                 </li>
               </ul>
             </li>
