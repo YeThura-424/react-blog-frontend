@@ -3,10 +3,10 @@ import React, { Fragment } from "react";
 const Pagination = () => {
   return (
     <Fragment>
-      <div class="pagination-box">
-        <ul class="pagination-list">
+      <div className="pagination-box">
+        <ul className="pagination-list">
           <li>
-            <a href="#" class="active">
+            <a href="#" className="active">
               1
             </a>
           </li>
@@ -15,7 +15,7 @@ const Pagination = () => {
           </li>
           <li>
             <a href="#">
-              Next Page <i class="fa fa-angle-right"></i>
+              Next Page <i className="fa fa-angle-right"></i>
             </a>
           </li>
         </ul>
