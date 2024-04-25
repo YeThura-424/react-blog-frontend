@@ -1,9 +1,15 @@
 import React, { Fragment } from "react";
-
+import PostItem from "./PostItem";
+import Pagination from "./Pagination";
 const Posts = () => {
   return (
     <Fragment>
-      <h1>Posts</h1>
+      <div class="col-lg-8">
+        <div class="blog-box list-style">
+          <PostItem />
+          <Pagination />
+        </div>
+      </div>
     </Fragment>
   );
 };

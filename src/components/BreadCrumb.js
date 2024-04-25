@@ -3,7 +3,12 @@ import React, { Fragment } from "react";
 const BreadCrumb = () => {
   return (
     <Fragment>
-      <h1>BreadCrumb</h1>
+      <section class="page-banner-section">
+        <div class="container">
+          <h1>List Style</h1>
+          <span>12 Posts</span>
+        </div>
+      </section>
     </Fragment>
   );
 };
