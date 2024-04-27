@@ -42,7 +42,7 @@ const NavBar = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link to="All Post">
+                  <Link to="/single-post">
                     Posts <i className="fa fa-angle-right"></i>
                   </Link>
                 </li>
