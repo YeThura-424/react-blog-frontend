@@ -1,9 +1,14 @@
 import { Fragment } from "react";
+import PostDetail from "../components/PostDetail";
+import Comment from "../components/Comment";
 
 const SinglePost = () => {
   return (
     <Fragment>
-      <h1>Single Post</h1>
+      <div class="single-post no-sidebar">
+        <PostDetail />
+        <Comment />
+      </div>
     </Fragment>
   );
 };
