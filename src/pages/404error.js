@@ -1,8 +1,11 @@
 import React, { Fragment } from "react";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const ErrorPage = () => {
   return (
     <Fragment>
+      <Header />
       <section class="page-banner-section">
         <div class="container">
           <h1>Page Could Not Be Found</h1>
@@ -23,6 +26,10 @@ const ErrorPage = () => {
           </div>
         </div>
       </section>
+
+      <Footer />
     </Fragment>
   );
 };
+
+export default ErrorPage;
