@@ -1,6 +1,3 @@
-import { createStore } from "redux";
-import reducer from "./reducers";
-
 const initialState = {
   posts: [
     {
@@ -30,8 +27,9 @@ const initialState = {
   ],
 };
 
-export const store = createStore(
-  reducer,
-  initialState,
-  window.devToolsExtension && window.devToolsExtension()
-);
+export default function (state = initialState, action) {
+  switch (action.type) {
+    default:
+      return state;
+  }
+}
