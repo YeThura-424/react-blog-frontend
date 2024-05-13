@@ -1,6 +1,6 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 
-const fetchPosts = createAsyncThunk("getPosts", async () => {
+export const fetchPosts = createAsyncThunk("getPosts", async () => {
   const response = await fetch("http://localhost/posts");
   return response;
 });
@@ -18,8 +18,10 @@ const postSlice = createSlice({
   },
   extraReducers: (builder) => {
     // Add reducers for additional action types here, and handle loading state as needed
-    builder.addCase(getPosts.fulfilled, (state, action) => {
+    builder.addCase(fetchPosts.fulfilled, (state, action) => {
       state.posts.push(action.payload);
     });
   },
 });
+
+export default postSlice.reducer;
