@@ -19,7 +19,7 @@ const postSlice = createSlice({
   extraReducers: (builder) => {
     // Add reducers for additional action types here, and handle loading state as needed
     builder.addCase(fetchPosts.fulfilled, (state, action) => {
-      state.posts.push(action.payload);
+      state.data.push(action.payload);
     });
   },
 });
