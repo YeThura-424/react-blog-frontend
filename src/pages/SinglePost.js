@@ -8,7 +8,7 @@ const SinglePost = () => {
   return (
     <Fragment>
       <Header />
-      <div class="single-post no-sidebar">
+      <div className="single-post no-sidebar">
         <PostDetail />
         <Comment />
       </div>

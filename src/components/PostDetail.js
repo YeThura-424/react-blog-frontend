@@ -3,43 +3,43 @@ import React, { Fragment } from "react";
 const PostDetail = () => {
   return (
     <Fragment>
-      <div class="single-post no-sidebar">
-        <div class="title-single-post">
-          <a class="text-link" href="#">
+      <div className="single-post no-sidebar">
+        <div className="title-single-post">
+          <a className="text-link" href="#">
             Lifestyle
           </a>
           <h1>Vivamus vestibulum ntulla necante.</h1>
-          <ul class="post-tags">
+          <ul className="post-tags">
             <li>1 week ago</li>
             <li>
               <a href="#">3 comments</a>
             </li>
           </ul>
         </div>
-        <div class="single-post-content">
+        <div className="single-post-content">
           <img src="upload/single/4.jpg" alt="" />
-          <div class="post-content">
-            <div class="post-social">
+          <div className="post-content">
+            <div className="post-social">
               <span>Share</span>
-              <ul class="share-post">
+              <ul className="share-post">
                 <li>
-                  <a href="#" class="facebook">
-                    <i class="fa fa-facebook"></i>
+                  <a href="#" className="facebook">
+                    <i className="fa fa-facebook"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="twitter">
-                    <i class="fa fa-twitter"></i>
+                  <a href="#" className="twitter">
+                    <i className="fa fa-twitter"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="pinterest">
-                    <i class="fa fa-pinterest"></i>
+                  <a href="#" className="pinterest">
+                    <i className="fa fa-pinterest"></i>
                   </a>
                 </li>
               </ul>
             </div>
-            <div class="post-content-text">
+            <div className="post-content-text">
               <p>
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                 Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi
@@ -80,12 +80,12 @@ const PostDetail = () => {
                 ultricies ac, leo. Integer leo pede, ornare a, lacinia eu,
                 vulputate vel, nisl.
               </p>
-              <div class="image-alt-box">
-                <div class="image-holder">
+              <div className="image-alt-box">
+                <div className="image-holder">
                   <img src="upload/single/2.jpg" alt="" />
                   <span>Nulla sed leo.</span>
                 </div>
-                <div class="image-holder">
+                <div className="image-holder">
                   <img src="upload/single/3.jpg" alt="" />
                   <span>Fusce lacinia arcu et nulla.</span>
                 </div>
@@ -109,8 +109,8 @@ const PostDetail = () => {
                 eget arcu gravida tristique. Nunc iaculis mi in ante. Vivamus
                 imperdiet nibh feugiat est.
               </p>
-              <div class="share-tags-box">
-                <ul class="tags">
+              <div className="share-tags-box">
+                <ul className="tags">
                   <li>
                     <a href="#">travel</a>
                   </li>
@@ -121,66 +121,66 @@ const PostDetail = () => {
                     <a href="#">lifestyle</a>
                   </li>
                 </ul>
-                <ul class="shares-likes">
+                <ul className="shares-likes">
                   <li>
-                    <a href="#" class="likes">
-                      Like <i class="fa fa-heart-o"></i> 14
+                    <a href="#" className="likes">
+                      Like <i className="fa fa-heart-o"></i> 14
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="facebook">
-                      <i class="fa fa-facebook"></i> 23
+                    <a href="#" className="facebook">
+                      <i className="fa fa-facebook"></i> 23
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="twitter">
-                      <i class="fa fa-twitter"></i> 5
+                    <a href="#" className="twitter">
+                      <i className="fa fa-twitter"></i> 5
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="pinterest">
-                      <i class="fa fa-pinterest"></i> 2
+                    <a href="#" className="pinterest">
+                      <i className="fa fa-pinterest"></i> 2
                     </a>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
-          <div class="prev-next-box">
-            <div class="prev-box">
-              <a class="text-link" href="single-post.html">
-                <i class="fa fa-angle-left"></i> Previous Post
+          <div className="prev-next-box">
+            <div className="prev-box">
+              <a className="text-link" href="single-post.html">
+                <i className="fa fa-angle-left"></i> Previous Post
               </a>
               <h2>
                 <a href="single-post.html">Sed adipiscing ornare risus.</a>
               </h2>
             </div>
-            <div class="next-box">
-              <a class="text-link next-link" href="single-post.html">
-                Next Post <i class="fa fa-angle-right"></i>
+            <div className="next-box">
+              <a className="text-link next-link" href="single-post.html">
+                Next Post <i className="fa fa-angle-right"></i>
               </a>
               <h2>
                 <a href="single-post.html">Quisque a lectus.</a>
               </h2>
             </div>
           </div>
-          <div class="related-box">
+          <div className="related-box">
             <h2>Related Posts</h2>
-            <div class="row">
-              <div class="col-lg-4 col-md-4">
-                <div class="news-post standard-post text-left">
-                  <div class="image-holder">
+            <div className="row">
+              <div className="col-lg-4 col-md-4">
+                <div className="news-post standard-post text-left">
+                  <div className="image-holder">
                     <a href="single-post.html">
                       <img src="upload/blog/p1.jpg" alt="" />
                     </a>
                   </div>
-                  <a class="text-link" href="#">
+                  <a className="text-link" href="#">
                     Food
                   </a>
                   <h2>
                     <a href="single-post.html">Fusce pellentesque suscipit.</a>
                   </h2>
-                  <ul class="post-tags">
+                  <ul className="post-tags">
                     <li>
                       by <a href="#">Stan Enemy</a>
                     </li>
@@ -188,20 +188,20 @@ const PostDetail = () => {
                   </ul>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-4">
-                <div class="news-post standard-post text-left">
-                  <div class="image-holder">
+              <div className="col-lg-4 col-md-4">
+                <div className="news-post standard-post text-left">
+                  <div className="image-holder">
                     <a href="single-post.html">
                       <img src="upload/blog/p2.jpg" alt="" />
                     </a>
                   </div>
-                  <a class="text-link" href="#">
+                  <a className="text-link" href="#">
                     Lifestyle
                   </a>
                   <h2>
                     <a href="single-post.html">Quisque a lectus. </a>
                   </h2>
-                  <ul class="post-tags">
+                  <ul className="post-tags">
                     <li>
                       by <a href="#">Stan Enemy</a>
                     </li>
@@ -209,20 +209,20 @@ const PostDetail = () => {
                   </ul>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-4">
-                <div class="news-post standard-post text-left">
-                  <div class="image-holder">
+              <div className="col-lg-4 col-md-4">
+                <div className="news-post standard-post text-left">
+                  <div className="image-holder">
                     <a href="single-post.html">
                       <img src="upload/blog/p3.jpg" alt="" />
                     </a>
                   </div>
-                  <a class="text-link" href="#">
+                  <a className="text-link" href="#">
                     Travel
                   </a>
                   <h2>
                     <a href="single-post.html">Vestibulum commodo tortor.</a>
                   </h2>
-                  <ul class="post-tags">
+                  <ul className="post-tags">
                     <li>
                       by <a href="#">Stan Enemy</a>
                     </li>
@@ -234,7 +234,7 @@ const PostDetail = () => {
           </div>
         </div>
 
-        <div class="advertise-box">
+        <div className="advertise-box">
           <a href="#">
             <img src="upload/banners/ban3.jpg" alt="" />
           </a>
