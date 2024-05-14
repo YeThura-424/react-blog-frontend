@@ -9,7 +9,7 @@ const Posts = () => {
   const data = useSelector((state) => state);
   useEffect(() => {
     dispatch(fetchPosts());
-  });
+  }, []);
 
   console.log(data);
   return (
