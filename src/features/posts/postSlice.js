@@ -2,6 +2,7 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 
 export const fetchPosts = createAsyncThunk("getPosts", async () => {
   const response = await fetch("http://localhost/posts");
+  console.log(response);
   return response;
 });
 

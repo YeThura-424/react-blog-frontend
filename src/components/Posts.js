@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useEffect } from "react";
 import PostItem from "./PostItem";
 import Pagination from "./Pagination";
 import { useDispatch, useSelector } from "react-redux";
@@ -7,6 +7,9 @@ import { fetchPosts } from "../features/posts/postSlice";
 const Posts = () => {
   const dispatch = useDispatch();
   const data = useSelector((state) => state);
+  useEffect(() => {
+    dispatch(fetchPosts());
+  });
 
   console.log(data);
   return (
