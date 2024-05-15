@@ -9,9 +9,8 @@ const Posts = () => {
   const data = useSelector((state) => state);
   useEffect(() => {
     dispatch(fetchPosts());
-  }, []);
+  }, [dispatch]);
 
-  console.log(data);
   return (
     <Fragment>
       <div className="col-lg-8">
