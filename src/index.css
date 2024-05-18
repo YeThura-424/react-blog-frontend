@@ -17,6 +17,17 @@ code {
     box-shadow: 0px 0px 20px 1px #eee;
 }
 
-section.fresh-section.on-trend-mode {
+section.fresh-section.on-trend-mode,footer {
     background: #ededed;
+}
+section.top-home-section,
+header.clearfix.header-style5{
+    background: #e6ede7;
+}
+
+.widget.subscribe-widget2,.widget.category-widget,.widget.social-widget,
+.widget.list-widget {
+    border-radius: 50px;
+    background: #fafafa;
+    box-shadow: 20px 20px 60px #d1d3d2, -20px -20px 60px #d1d3d2;
 }
