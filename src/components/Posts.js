@@ -6,7 +6,7 @@ import { fetchPosts } from "../features/posts/postSlice";
 
 const Posts = () => {
   const dispatch = useDispatch();
-  const data = useSelector((state) => state);
+  // const data = useSelector((state) => state);
   useEffect(() => {
     dispatch(fetchPosts());
   }, [dispatch]);
