@@ -6,7 +6,8 @@ import { fetchPosts } from "../features/posts/postSlice";
 
 const Posts = () => {
   const dispatch = useDispatch();
-  // const data = useSelector((state) => state);
+  const data = useSelector((state) => state);
+  console.log("abo", data);
   useEffect(() => {
     dispatch(fetchPosts());
   }, [dispatch]);

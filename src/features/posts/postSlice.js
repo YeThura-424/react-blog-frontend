@@ -1,7 +1,10 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
+import axios from "axios";
 
 export const fetchPosts = createAsyncThunk("fetchPosts", async () => {
-  const response = await fetch("http://localhost:5000/post");
+  const base_rul = "http://localhost:5000/post";
+  // const response = await fetch("http://localhost:5000/post");
+  const response = await axios.get(base_rul);
   console.log(response);
   return response.data;
 });
