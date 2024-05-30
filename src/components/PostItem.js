@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 
-const PostItem = () => {
+const PostItem = (posts) => {
+  console.log(posts);
   return (
     <Fragment>
       <div className="news-post article-post2">

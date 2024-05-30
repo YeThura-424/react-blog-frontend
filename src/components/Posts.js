@@ -6,8 +6,8 @@ import { fetchPosts } from "../features/posts/postSlice";
 
 const Posts = () => {
   const dispatch = useDispatch();
-  const data = useSelector((state) => state);
-  console.log("abo", data);
+  const data = useSelector((state) => state.data);
+  // console.log("abo", data);
   useEffect(() => {
     dispatch(fetchPosts());
   }, [dispatch]);
@@ -16,7 +16,7 @@ const Posts = () => {
     <Fragment>
       <div className="col-lg-8">
         <div className="blog-box list-style">
-          <PostItem />
+          <PostItem posts={data} />
           <Pagination />
         </div>
       </div>

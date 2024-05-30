@@ -3,9 +3,7 @@ import axios from "axios";
 
 export const fetchPosts = createAsyncThunk("fetchPosts", async () => {
   const base_rul = "http://localhost:5000/post";
-  // const response = await fetch("http://localhost:5000/post");
   const response = await axios.get(base_rul);
-  console.log(response);
   return response.data;
 });
 
@@ -23,7 +21,7 @@ const postSlice = createSlice({
   extraReducers: (builder) => {
     // Add reducers for additional action types here, and handle loading state as needed
     builder.addCase(fetchPosts.fulfilled, (state, action) => {
-      state.data.push(action.payload);
+      state.data.push(action.payload.posts);
     });
   },
 });
